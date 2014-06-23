@@ -1,0 +1,48 @@
+body
+{
+	background-image:url('assets/background.jpg');
+	background-size: cover;
+	font-family: "Helvetica", sans-serif;
+}
+
+h1 {
+	font-family: Helvetica;
+	font-size: 3em;
+}
+
+a { 
+	color: white;
+	}
+
+.infoblock
+{
+	margin: 60px auto auto 30px;
+	height: 30%;
+	width: 30%;
+	padding-left: 10px;
+	background-color: #934648;
+	display: inline-block;
+}
+
+.infoblock ul {
+		font-size: 1em;
+}
+
+.infoblock li {
+	display: inline-block;
+	padding: 0px 0px 0px 10px;
+}
+
+@media (max-width: 500px) {
+	body {
+	}
+
+	h1 {
+		font-size: 30px;
+	}
+
+ 	li {
+        display: block;
+        padding: 10px;
+        font-size: 14px;
+      }
